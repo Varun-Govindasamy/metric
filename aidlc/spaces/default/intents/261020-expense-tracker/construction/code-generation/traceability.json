@@ -1,0 +1,43 @@
+{
+  "stage": "code-generation",
+  "upstream_ids": [
+    "FR1",
+    "FR2",
+    "FR3",
+    "NFR1",
+    "NFR2",
+    "NFR3"
+  ],
+  "coverage": [
+    {
+      "id": "FR1",
+      "status": "OK",
+      "target": "expense_tracker/api.py"
+    },
+    {
+      "id": "FR2",
+      "status": "OK",
+      "target": "expense_tracker/repository.py"
+    },
+    {
+      "id": "FR3",
+      "status": "OK",
+      "target": "tests/test_api.py"
+    },
+    {
+      "id": "NFR1",
+      "status": "OK",
+      "target": "tests/test_database.py"
+    },
+    {
+      "id": "NFR2",
+      "status": "OK",
+      "target": "main.py"
+    },
+    {
+      "id": "NFR3",
+      "status": "OK",
+      "target": "tests/test_api.py"
+    }
+  ]
+}
